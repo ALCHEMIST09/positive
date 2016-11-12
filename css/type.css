@@ -1,0 +1,96 @@
+/* CSS Document */
+/*------------ Site Headings -------------*/
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	color: #FDFDFD;
+	font-weight: bold;
+	padding: 20px 20px 10px 20px;
+}
+h1 a { color: #3b383a; text-decoration: none; }
+h1 span#slogan {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 10px;
+	font-weight: normal;
+}
+h2 {
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-size: 24px;
+	color: #0581cf;
+	font-weight: 400;
+	font-stretch: condensed;
+	margin-bottom: 15px;
+	clear: both;
+}
+h3 {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	color: #125A70;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+#main-nav a {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	text-decoration: none;
+	display: block;
+	padding: 8px 10px;
+	color: #fff;
+}
+#main-nav a:hover {
+	background: #00B7B7;
+}
+#side-nav li {
+	width: 100%;
+	padding: 10px 0px 3px 0px;
+	border-bottom: 1px groove #DDD;;
+}
+#side-nav a {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	width: 90%;
+	padding-left: 10%;
+	color: #fff;
+}
+#footer p {
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 20px;
+	margin-bottom: 3px;
+}
+#footer p a {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer p a:hover {
+	color: #FF0;
+}
+#container p {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	color: #494949;
+}
+a { color: blue; }
+a:visited { color: blue ; }
+.required-field { font-size: 120%; color: red; }
+.warning { border: 5px solid red; }
+#total {
+	font-weight: bold;
+	font-size: 24px;
+}
+.edit-symbol {
+	font-weight: bolder !important;
+	text-decoration: none !important;
+}
+.out_of_stock {
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+}
+.size-color { font-weight: bold; }
+.active-link { color: #FFFFFF; background: #3D0079; }
+.total-field { font-weight: bold; font-size:18px; }
