@@ -32,7 +32,7 @@ directory. The line typically looks like:
 
 ##### defined('SITE_ROOT') ? NULL : define('SITE_ROOT', $_SERVER['DOCUMENT_ROOT'].DS.'app_pos');
 
-The above line defines the root of your application. The portion **"app_pos"** in the above line is the name of the folder located in your web server document root into which you extracted the application's files and folders. Rename it to match the name you gave to that folder.
+The above line defines the root of your application. The portion **"app_pos"** in the above line is the name of the folder located in your web server document root into which you extracted the application's files and folders. Rename it to match the name you gave to that folder. If you have defined a virtual host then you need to edit the above line and remove the folder name.
 
 Edit Database File
 --------------------
@@ -49,7 +49,7 @@ USE `app_pos`;
 
 -- -----
 
-In the above line, replace every instance of "app_real_estate_v2" with the name you gave your database. Save the file, then import it using either the MySQL console or phpmyadmin to setup the database tables for the application.
+In the above line, replace every instance of **"app_pos"** with the name you gave your database. Save the file, then import it using either the MySQL console or phpmyadmin to setup the database tables for the application.
 
 You are now good to go. Go to the the browser and fire up the application from the base URL of your web server. E.g, say you 
 are running the application on localhost, and extracted it to a folder named "one-sqaure-foot", go to http://localhost/app_pos and get started using the application by logging in as an administrator using a username of "admin" and password of "pass". You can now start using the application by setting up properties, rooms, tenants, taking payments, and producing reports.
